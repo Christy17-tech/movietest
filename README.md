@@ -249,13 +249,3 @@ npm run lint     # Run Oxlint
 
 ### Port 5000 is already in use
 https://movietest-1.onrender.com/
-Set a different port in `backend/.env`, for example:
-
-```env
-PORT=5001
-```
-
-If the backend port changes, update `API_BASE` in the frontend to use the same port.
-
-## Host Link
-
