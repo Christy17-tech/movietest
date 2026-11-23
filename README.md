@@ -248,7 +248,7 @@ npm run lint     # Run Oxlint
 - If the backend port is changed, update `API_BASE` in `frontend/src/App.jsx`.
 
 ### Port 5000 is already in use
-
+https://movietest-1.onrender.com/
 Set a different port in `backend/.env`, for example:
 
 ```env
@@ -257,6 +257,5 @@ PORT=5001
 
 If the backend port changes, update `API_BASE` in the frontend to use the same port.
 
-## License
+## Host Link
 
-No license has been specified for this project.
