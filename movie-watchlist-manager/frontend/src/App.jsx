@@ -16,7 +16,7 @@ import MovieFormModal from './components/MovieFormModal';
 import RatingModal from './components/RatingModal';
 import WatchNextModal from './components/WatchNextModal';
 
-const API_BASE = 'http://localhost:5000/api/movies';
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/movies';
 const GENRES = ['All', 'Action', 'Comedy', 'Drama', 'Horror', 'Sci-Fi', 'Romance', 'Thriller'];
 const STATUSES = ['All', 'To Watch', 'Watching', 'Watched'];
 
